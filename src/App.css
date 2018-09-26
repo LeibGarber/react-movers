@@ -1,3 +1,23 @@
+.Home-Header-Parallax {
+}
+
+.Ak {
+  width: 25vw;
+  height: auto;
+  transform: scaleX(-1) rotate(-15deg);
+
+  align-self: flex-start;
+}
+
+.discs img {
+  width: 5vw;
+  height: auto;
+}
+
+.Tupac {
+  top: 35vh;
+}
+
 .App {
   text-align: center;
 }
