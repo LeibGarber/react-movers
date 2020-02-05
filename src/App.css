@@ -1,4 +1,37 @@
 .Home-Header-Parallax {
+  height: 100vh;
+}
+.Plax-Text {
+  display: flex;
+  flex-direction: column;
+ justify-content: space-around;
+ align-items: flex-start;
+ width:100vw;
+ margin: 10vh 10vh;
+
+}
+.Plax-Text h1 {
+  font: bold 60px "Open Sans", sans-serif;
+  margin-bottom: 15px;
+  color:white;
+
+}
+
+.text-spacer{
+  width:100vw;
+  height:25vh;
+}
+
+.Plax-Text h3{
+  font: normal 28px "Open Sans", sans-serif;
+  margin-bottom: 40px;
+  color:lightgrey;
+
+}
+
+
+ul {
+  list-style-type: circle;
 }
 
 .Ak {
@@ -41,6 +74,8 @@
 .App-intro {
   font-size: large;
 }
+
+
 
 @keyframes App-logo-spin {
   from {
