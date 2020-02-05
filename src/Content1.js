@@ -1,7 +1,7 @@
 import React, { Component } from "react";
 import womanHoldingBox from "./imgs/woman-holding-moving-box.jpg";
 import movingTruck from "./imgs/moving-truck-clear-sky-expressway.jpg"
-import places from "./Places"
+import places from "./places"
 
 
 class Content1 extends Component {
@@ -51,19 +51,18 @@ class Content1 extends Component {
         <h3 className="title">What others say:</h3>
 
         <p className="quote">
-        Wow I can't believe what a great job these guys did. My only problem? Why did I do so many moves myself when I could have just hired Best Movers to do it for me?
-        </p>
-        <p className="author">— Bob Smith</p>
+        "I've moved a half dozen times for work in the last 4 years. Never had such an easy exprience until I found Best Movers.
+      "  </p>
+        <p className="author">Bill Hitchins</p>
+
+        <p className="quote">"Got a quote from another moving company for less than half of the price and felt like maybe something wasn't quite right. Called Best Movers and really liked them but their quote came in high. Took the lowball offer and should have gone with my gut. When those clows showed up all of a sudden they demanded more than triple what they had quoted me! Luckily Best Movers was still able to get a truck out to me and saved me a fortune.
+      "  </p>
+        <p className="author">Rick Sanchez</p>
 
         <p className="quote">
-          I was in a jam and Best Movers saved the day. Had to move my mother after my father died. She was alone, miserable and dreading the move. Best Movers came in, packed the whole house up in a day, and got all of my mothers stuff out to us in no time. They were so nice to her and really helped my family through a time and helped us get our best foot forward. Love you guys
+        "Such nice movers"
         </p>
-        <p className="author">— Jimmy Cohn</p>
-
-        <p className="quote">
-          Best Movers work like gangbusters. We needed my entire startup moved to our new location across town like yesterday and I had no idea how to get this sorted. Comes Best Movers to pack up 30 workstations, cubicles, desks, office supplies and get my entire staff set up the next day. Did such a great job on that one that I've now used them a dozen times to move my team all around the country. These guys really are the best movers Coast to Coast for both local movers, or cross country movers. A team you can trust for any job. Highly recommend.
-        </p>
-        <p className="author">— Gary V</p>
+        <p className="author">Monique D</p>
       </section>
 
         <h1> Do you have a moving company near me?</h1>
