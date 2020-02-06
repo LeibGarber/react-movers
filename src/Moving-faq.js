@@ -4,7 +4,7 @@ import movingTruck from "./imgs/moving-truck-clear-sky-expressway.jpg"
 import places from "./places"
 
 
-class Content1 extends Component {
+class MovingFaq extends Component {
   render() {
     return (
       <div className="MovingFaq">
@@ -77,4 +77,4 @@ class Content1 extends Component {
     );
   }
 }
-export default Content1;
+export default MovingFaq;
