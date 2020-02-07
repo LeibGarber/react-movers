@@ -13,6 +13,7 @@ import About from "./About";
 import MovingFaq from "./Moving-faq";
 import Content2 from "./Content2";
 import Contact from "./Contact";
+import LocalMovers from "./LocalMovers";
 
 class App extends Component {
   render() {
@@ -37,6 +38,9 @@ class App extends Component {
                 <NavLink to="/content2">Content 2</NavLink>
               </li>
               <li>
+                <NavLink to="/localmovers">Local Movers</NavLink>
+              </li>
+              <li>
                 <NavLink to="/contact">Contact</NavLink>
               </li>
             </nav>
@@ -47,6 +51,7 @@ class App extends Component {
             <Route exact path="/about" component={About} />
             <Route exact path="/moving-faq" component={MovingFaq} />
             <Route exact path="/content2" component={Content2} />
+            <Route exact path="/localmovers" component={LocalMovers} />
             <Route exact path="/contact" component={Contact} />
             <Redirect from="/" to="/home" />
           </Switch>
